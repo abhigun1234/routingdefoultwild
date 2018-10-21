@@ -1,0 +1,9 @@
+<ul>
+  <li><a [routerLink] = "['/emplist']">emplist</a></li>
+  <li><a [routerLink] = "['/department']">dept</a></li>
+  
+</ul>
+<button (click)="nevigateTodept()">Dept</button>
+<button (click)="nevigateToEmpList()" >Emp</button>
+
+<router-outlet></router-outlet>
